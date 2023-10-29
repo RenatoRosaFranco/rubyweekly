@@ -1,0 +1,179 @@
+.subscriptions
+{
+  position: relative;
+  background-color: #e6e6e6;
+
+  #hero
+  {
+    position: relative;
+    background-color: #EEE;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .art
+    {
+      position: relative;
+      background-color: #CCC;
+      width: 300px;
+      height: 300px;
+    }
+
+    .avatar
+    {
+      position: relative;
+      margin-left: -20px;
+      border-radius: 84px;
+      width: 84px;
+      height: 84px;
+    }
+  }
+
+  #cta
+  {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  #flow
+  {
+    position: relative;
+    background-color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #next-steps
+  {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    #alert-block
+    {
+      position: relative;
+      margin-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      h1
+      {
+        position: relative;
+        font-size: 46px;
+        margin-top: 0px;
+      }
+
+      h3
+      {
+        position: relative;
+        margin-top: -2px;
+      }
+    }
+
+    .step
+    {
+      position: relative;
+      width: 84px;
+      height: 84px;
+      border-radius: 44px;
+      background-color: #EEE;
+      border: 1px solid #999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      margin-bottom: -25px;
+      font-weight: bold;
+      font-size: 22px;
+      z-index: 999;
+    }
+
+    .content
+    {
+      position: relative;
+      border: 1px solid #999;
+      padding: 20px;
+
+      h4, p
+      {
+        position: relative;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      h4
+      {
+        position: relative;
+        text-transform: uppercase;
+      }
+
+      p
+      {
+        position: relative;
+        color: #999;
+      }
+
+      a
+      {
+        position: relative;
+        background-color: transparent;
+        border: 2px solid #CCC;
+        color: #CCC;
+        transition: 0.5s;
+
+        &.over, &:hover
+        {
+          position: relative;
+          background-color: #CCC;
+          border: 1px solid #CCC;
+          color: #FFF;
+          transition: 0.5s;
+        }
+      }
+
+      .ico
+      {
+        position: relative;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .content
+  {
+    position: relative;
+    border-left: 2px solid #EEE;
+    padding: 20px;
+  }
+
+  .avatar
+  {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    border-radius: 54px;
+    background-color: #CCC;
+    border: 1px solid #CCC;
+    position: absolute;
+    margin-left: -65px;
+    bottom: 68px;
+  }
+
+  #pilot
+  {
+    position: relative;
+    background-color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    .pilot-img
+    {
+      position: relative;
+      background-color: #EEE;
+      transform: rotate(-10deg);
+      margin-top: 90px;
+      width: 250px;
+      height: 250px;
+    }
+  }
+}

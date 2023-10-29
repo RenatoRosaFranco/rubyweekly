@@ -1,0 +1,213 @@
+<%= provide :title, '' %>
+<%= provide :description, '' %>
+<%= provide :keywords, '' %>
+<%= provide :ld_json, {} %>
+
+<section id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class='text-center'><%= notice %>/ adadadsd</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-8">
+          <h4 class='bold'>Semana Ruby Expert 1</h4>
+          <br />
+
+          <p style='font-size: 22px;'>
+          <u class='bold'>DEV:</u> Vou te mostrar o caminho<br>
+          para <span class='bold'>se especializar em Ruby</span><br>
+          e <span class='bold'>alavancar sua carreira</span> recriando<br>
+          o site mais acessado do mundo.</p>
+          <ul class="list-unstyled list-inline" style='padding-top: 8px; padding-bottom: 5px;'>
+            <li>
+              <p class='bold'>
+                <i class="fa-solid fa-circle-check ico"></i>
+                Semana com aulas gratuitas
+              </p>
+            </li>
+            <li>
+              <p class='bold'>
+                <i class="fa-solid fa-circle-check ico"></i>
+                De 23 a 27 de Outubro
+              </p>
+            </li>
+            <br>
+
+            <br />
+            <div class='col-md-7'>
+              <div class='row'>
+                <div class='panel panel-default'>
+                  <div class='panel-body'>
+                    <%= render 'subscriptions/form', locals: { lead: @lead } %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <div class="art"></div>
+
+          <div class='text-right'><br />
+            <%= image_tag('avatars/52.jpg', class: 'avatar', alt: 'avatar-renato-franco') %>
+            <p>com <span class='bold'>Renato Franco</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="flow">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class='bold text-center'>
+          Nessas 4 Aulas pragramando na prática você vai:
+        </h2>
+        <br>
+
+        <div class='col-md-11 col-md-offset-1'>
+          <div class='row'>
+            <div class="col-md-3 col-md-offset-1">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <h1><i class="fa-regular fa-gem"></i></h1>
+                  <p>Dominar técnicas para processar dados
+                  massivos em Javascript</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                 <h1><i class="fa-solid fa-arrow-up-from-bracket"></i></h1>
+                  <p>Dominar técnicas para processar dados
+                  massivos em Javascript</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <h1><i class="fa-solid fa-file-code"></i></h1>
+                  <p>Dominar técnicas para processar dados
+                  massivos em Javascript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class='row'>
+            <div class="col-md-3 col-md-offset-2" style='margin-left: 220px;'>
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <h1><i class="fa-regular fa-window-maximize"></i></h1>
+                  <p>Dominar técnicas para processar dados
+                  massivos em Javascript</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <h1><i class="fa-solid fa-gauge"></i></h1>
+                  <p>Dominar técnicas para processar dados
+                  massivos em Javascript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class='col-md-6 col-md-offset-3'>
+          <h2 class='bold text-center'>
+            Essa semana e para você!
+          </h2>
+          <br />
+
+          <div class="panel panel-default">
+            <div class="panel-body content">
+              <p>Criei a semena Ruby para quem quer descobrir o caminho
+              para se especializar em Ruby, aprendendo conceitos do básico
+              ao avançado de forma clara a abraçar as melhores posições do
+              mercado.</p>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <%= image_tag('avatars/52.jpg', class: 'avatar') %>
+
+            <div class="panel-body content">
+              <p>Portanto se você está cansado de conteúdos rasos e básicos
+              de Ruby com mais do mesmo, que não acrescentam em nada sua carreira
+              profissional, essa semana é para você!</p>
+            </div>
+          </div>
+
+          <div class='text-center'>
+            <%= link_to '#', class: 'btn btn-primary btn-lg uppercase' do %>
+              Quero Participar do Ruby Expert
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pilot">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-5 text-center">
+          <%= image_tag('', class: 'pilot-img') %>
+        </div>
+
+        <div class="col-md-6">
+          <h3>Quem é <span class='bold'>Renato Franco</span></h3>
+          <br />
+
+          <p>Erick Wendel é Node.js core contributor e foi premiado como especialista em Node.js com os 
+          prêmios Google Developer Expert, Microsoft MVP, GitHub Stars e OpenJS Path Finder Educator, 
+          sendo o único indivíduo a nível mundial a manter essas nomeações de forma simultânea.</p>
+          
+          <br />
+          <p>É vencedor de competições de software no Brasil (AngelHack Global Hackathon Series: 
+          São Paulo 07/2017) e no Vale do Silício (DeveloperWeek SF Hackathon 03/2019).</p>
+
+          <br />
+          <p>Também é certificado pela Microsoft e OpenJS Foundation, além de ser reconhecido pela 
+          Google, Microsoft e GitHub como especialista em desenvolvimento de aplicações Web.</p>
+
+          <br />
+          <p>Já treinou mais de 100 mil pessoas em todo o mundo como instrutor profissional e 
+          produtor de conteúdo em sua própria empresa EW Treinamentos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= render partial: 'shared/footer' %>

@@ -1,0 +1,33 @@
+.home
+{
+  .lesson
+  {
+    position: relative;
+    margin-top: 25px;
+
+    .thumb
+    {
+      position: relative;
+      background-color: #EEE;
+      margin-right: 10px;
+      width: 64px;
+      height: 74px;
+
+    }
+
+    .title
+    {
+      position: relative;
+      text-transform: uppercase;
+      background-color: #EEE;
+      padding: 6px;
+    }
+
+    .description
+    {
+      position: relative;
+      margin-top: 2px;
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,110 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require bootstrap
+ *= require_tree .
+ *= require_self
+ */
+body
+{
+  position: relative;
+  font-face: 'Ruboto';
+  font-size: 14px;
+}
+
+.bold
+{
+  position: relative;
+  font-weight: bold;
+}
+
+.uppercase
+{
+  position: relative;
+  text-transform: uppercase;
+}
+
+.no-style
+{
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+#header
+{
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #EEE;
+
+  .brand
+  {
+    position: relative;
+    margin-left: 220px;
+  }
+
+  .expert
+  {
+    position: relative;
+    background-color: #CCC;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .edition
+  {
+    position: relative;
+    margin-left: -5px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid #CCC;
+    padding: 8px;
+  }
+
+  .subBtn
+  {
+    position: relative;
+    margin-top: -10px;
+    margin-right: 80px;
+    background-color: transparent;
+    border: 2px solid #999;
+    color: #999;
+    transition: 0.5s;
+    z-index: 999;
+
+    &.over, &:hover
+    {
+      position: relative;
+      background-color: #999;
+      border: 2px solid #999;
+      color: #FFF;
+      transition: 0.5s;
+    }
+  }
+}
+
+#banner
+{
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: #CCC;
+}
+
+#footer
+{
+  position: relative;
+  background-color: #EEE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

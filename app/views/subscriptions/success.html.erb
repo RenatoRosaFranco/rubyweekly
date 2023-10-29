@@ -1,0 +1,166 @@
+<%= provide :title, '' %>
+<%= provide :description, '' %>
+<%= provide :keywords, '' %>
+
+<section id="next-steps">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class='panel panel-default'>
+              <div class='panel-body'>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" 
+                  aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" 
+                  style="width: 86%;">
+                    86%
+                  </div>
+                </div>
+
+                <p class='text-right bold'>
+                  Você está quase lá
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2" id='alert-block'>
+            <h1 class='text-center'><i class="fa-solid fa-triangle-exclamation"></i></h1>
+            <h3 class="bold text-center uppercase">Importante!</h3>
+            <p class='text-center'>
+             Para confirmar 100% a sua participação e<br />
+             aproveitar ao máximo a semana Ruby Expert<br>
+             <span class='bold'>siga as instruções de cada uma 
+             das etapas<br /> abaixo<span /></p>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+              
+              <div class="col-md-12">
+                <div class='text-center'>
+                  <div class='step'>1</div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-body content text-center">
+                    <h4 class='bold'>Faça parte da comunidade</h4>
+                    <p>Esse será o nosso canal no qual vou enviar o seu acesso, links
+                    e materiais<br /> do evento. Por isso, é importante você fazer parte dele
+                    para não perder nada.</p>
+
+                    <ul class="list-unstyled list-inline">
+                      <li>
+                        <%= link_to '',
+                          class: 'btn btn-primary btn-lg top bold uppercase' do %>
+                          <i class="fa-brands fa-telegram ico"></i>
+                          Grupo Telegram
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to '',
+                          class: 'btn btn-primary btn-lg top bold uppercase' do %>
+                          <i class="fa-brands fa-discord ico"></i>
+                          Discord
+                        <% end %>  
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class='text-center'>
+                  <div class='step'>2</div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-body content text-center">
+                    <h4 class='bold'>Abra o email que te enviei</h4>
+                    <p>Eu acabei de enviar um e-mail importante com o assunto:
+                    <br>"Ação necessária - confirme sua participação". Abre ele,<br>
+                    leia o conteúdo na integra e marque o meu remetente como 
+                    <span class='bold'>"favorito</span></p>
+
+                    <ul class="list-unstyled list-inline">
+                      <li>
+                        <%= link_to 'https://outlook.live.com/mail/',
+                          class: 'btn btn-primary btn-lg top bold uppercase' do %>
+                          <i class="fa-solid fa-envelope ico"></i>
+                          Outlook
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://mail.google.com/mail/',
+                          class: 'btn btn-primary btn-lg top bold uppercase' do %>
+                          <i class="fa-brands fa-google ico"></i>
+                          Gmail
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://icloud.com/',
+                          class: 'btn btn-primary btn-lg top bold uppercase' do %>
+                          <i class="fa-brands fa-apple ico"></i>
+                          ICloud
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class='text-center'>
+                  <div class='step'>3</div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-body content text-center">
+                    <h4 class='bold'>Qual seu nível atual? Quer que eu foque no quê?</h4>
+                    <p>Para agregar ainda mais valor no seu desenvolvimento profissional<br>
+                    e elevar o seu nivel como DEV trazendo desafios de código<br>
+                    projetos e conteudo que farão a diferença na sua vida. peço que<br>
+                    reserve 1 único minutinho para preencher este fórmulario de<br>
+                    pesquisa. <span class='bold'>Ele é fundamental para que essa semana agregue<br>
+                    o máximo de valor na sua carreira.</span><br>
+                    </p>
+
+                    <%= link_to '',
+                      class: 'btn btn-primary btn-lg top bold uppercase' do %>
+                      <i class="fa-solid fa-list-check ico"></i>
+                      Responda pesquisa em 1 minuto
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class='text-center'>
+                  <div class='step'>4</div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-body content text-center">
+                    <h4 class='bold'>Convide um amigo(a)</h4>
+                    <p>Agora para finalizar. ajude a ajudar. Convide seus amigos DEVs<br>
+                    que também estão buscando dar um passo importante para evoluir<br>
+                    na profissão. Basta clicar em compartilhar e enviar para eles!</p>
+
+                    <%= link_to '',
+                      class: 'btn btn-primary btn-lg top bold uppercase' do %>
+                      <i class="fa-solid fa-share-from-square ico"></i>
+                      Compartilhar
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= render partial: 'shared/footer' %>
